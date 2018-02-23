@@ -3,9 +3,9 @@ Developed a system for scene classification. Trained on a subset of the SUN Imag
 
 # How to implement 
 This project has 3 major parts. \
- Part 1: build a dictionary of visual words from training data. \
- Part 2: build the recognition system using visual word dictionary and training images. \
- Part 3: evaluate the recognition system using test images. \
+*Part 1: build a dictionary of visual words from training data. \
+*Part 2: build the recognition system using visual word dictionary and training images. \
+*Part 3: evaluate the recognition system using test images. \
 In Part 1, we use the provided filter bank to convert each pixel of each image into
 a high dimensional representation that will hopefully capture meaningful information, such
 as corners, edges etc. This will take each pixel from being a 3D vector of color values, to
